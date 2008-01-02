@@ -10,6 +10,7 @@ License:	GPL
 Url:		http://%{name}.sf.net/
 Group:     	Networking/IRC
 Source0:    	%{name}_%{version}.tar.bz2
+BuildRoot: 	%{_tmppath}/%{name}-buildroot
 BuildRequires:	ncurses-devel
 %description
 Rhapsody is a text console IRC client for Unix operating systems. 
