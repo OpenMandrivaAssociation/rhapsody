@@ -40,3 +40,32 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 %_datadir/%{name}/
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.28b-5mdv2010.0
++ Revision: 433346
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.28b-4mdv2009.0
++ Revision: 260236
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.28b-3mdv2009.0
++ Revision: 248410
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.28b-1mdv2008.1
++ Revision: 126599
+- kill re-definition of %%buildroot on Pixel's request
+- import rhapsody
+
+
+* Wed Mar 08 2006 Jerome Soyer <saispo@mandriva.org> 0.28b-1mdk
+- New release 0.28b
+
+* Wed Feb 15 2006 Michael Scherer <misc@mandriva.org> 0.27b-1mdk
+- first mandriva release 
