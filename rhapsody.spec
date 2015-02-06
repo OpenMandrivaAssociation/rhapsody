@@ -1,6 +1,6 @@
 %define name	rhapsody
 %define version 0.28b
-%define release %mkrel 5
+%define release 6
 
 Name:		%{name}
 Version:	%{version}
