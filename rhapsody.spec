@@ -7,7 +7,7 @@ Version:	%{version}
 Release:	%{release}
 Summary:    Text mode irc client with menu interface
 License:	GPL
-Url:		http://%{name}.sf.net/
+Url:		https://%{name}.sf.net/
 Group:     	Networking/IRC
 Source0:    	%{name}_%{version}.tar.bz2
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
